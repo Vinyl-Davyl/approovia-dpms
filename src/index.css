@@ -1,6 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --primary: #3b82f6;
@@ -26,20 +26,22 @@ body {
   color: var(--text-primary);
 }
 
-.card {
-  @apply bg-white rounded-lg shadow-md transition-all duration-200 ease-in-out;
-}
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-md transition-all duration-200 ease-in-out;
+  }
 
-.btn-primary {
-  @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md shadow transition-all duration-200;
-}
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md shadow transition-all duration-200;
+  }
 
-.btn-secondary {
-  @apply bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-md shadow transition-all duration-200;
-}
+  .btn-secondary {
+    @apply bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-md shadow transition-all duration-200;
+  }
 
-.input-field {
-  @apply border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  .input-field {
+    @apply border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
 }
 
 .animate-pulse-slow {
