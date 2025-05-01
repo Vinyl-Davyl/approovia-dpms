@@ -13,7 +13,6 @@ export default function DashboardPage() {
   const isMobile = useIsMobile();
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
 
-  // Sort projects alphabetically
   const sortedProjects = folder?.projects.slice().sort((a, b) => {
     return sortOrder === "asc" ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);
   });
