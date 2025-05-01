@@ -96,12 +96,12 @@ npm run build
 The application can be deployed to services like Vercel, Netlify, or any static hosting provider.
 
 ## Media
-
-![Dashboard Overview](https://github.com/user-attachments/assets/dashboard-overview.png)
-
-![Project Drag Operation](https://github.com/user-attachments/assets/drag-operation.png)
-
-![Mobile View](https://github.com/user-attachments/assets/mobile-view.png)
+<img width="1504" alt="Screenshot 2025-05-01 at 11 23 26 AM" src="https://github.com/user-attachments/assets/b76beb4e-1acf-4cb5-b048-e3145e41795c" />
+<img width="1500" alt="Screenshot 2025-05-01 at 11 20 57 AM" src="https://github.com/user-attachments/assets/ba92926e-7e55-4318-b917-8a4b3d470fb9" />
+<img width="1500" alt="Screenshot 2025-05-01 at 11 21 22 AM" src="https://github.com/user-attachments/assets/947950a7-fdd2-4471-8f1c-6273f6f6a4c0" />
+<img width="1500" alt="Screenshot 2025-05-01 at 11 22 03 AM" src="https://github.com/user-attachments/assets/4c53e910-7c59-4a3a-b5e7-88d48a317633" />
+<img width="390" alt="Screenshot 2025-05-01 at 11 22 48 AM" src="https://github.com/user-attachments/assets/faf05994-986c-463c-a1d2-4dcdfeff6327" />
+<img width="390" alt="Screenshot 2025-05-01 at 11 22 56 AM" src="https://github.com/user-attachments/assets/26751480-dd05-4359-8e94-242668da98e0" />
 
 ## Design Decisions
 
