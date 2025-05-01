@@ -30,7 +30,7 @@ export default function Sidebar({ id, isOpen, onClose }: SidebarProps) {
               <div className="h-10 w-10 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 flex items-center justify-center mr-2">
                 <FolderKanban className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-800">Nexus</span>
+              <span className="text-xl font-bold text-gray-800">Approovia</span>
             </div>
           </div>
 
