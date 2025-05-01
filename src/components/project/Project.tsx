@@ -5,7 +5,7 @@ type ProjectProps = {
   name: string;
 };
 
-// Function to generate deterministic colors based on project name
+// vinyl: generate deterministic colors based on project name
 const getProjectColor = (name: string) => {
   const colors = [
     "from-blue-500 to-indigo-600",
@@ -29,7 +29,7 @@ const getProjectColor = (name: string) => {
 export default function Project({ name }: ProjectProps) {
   const gradientClass = useMemo(() => getProjectColor(name), [name]);
 
-  // Generate random stats for the project - this would be real data in a real app
+  // vinyl: generate random stats for the project
   const randomProgress = useMemo(() => Math.floor(Math.random() * 100), []);
   const daysLeft = useMemo(() => Math.floor(Math.random() * 30) + 1, []);
 
