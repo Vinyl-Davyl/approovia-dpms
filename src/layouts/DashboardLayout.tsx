@@ -27,7 +27,6 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   const projectsByFolder = useSelector((state: RootState) => state.dashboard.folders);
   const isMobile = useIsMobile();
 
-  // Auto-close sidebar on mobile when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       const sidebar = document.getElementById("sidebar");
@@ -52,13 +51,13 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   const sensors = useSensors(
     useSensor(MouseSensor, {
       activationConstraint: {
-        distance: 8, // Minimum drag distance to start
+        distance: 8,
       },
     }),
     useSensor(TouchSensor, {
       activationConstraint: {
-        delay: 250, // Delay for touch activation
-        tolerance: 8, // Tolerance for touch movement
+        delay: 250,
+        tolerance: 8,
       },
     })
   );
