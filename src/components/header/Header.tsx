@@ -9,7 +9,7 @@ export default function Header({ children }: HeaderProps) {
     <header className="sticky top-0 z-10 bg-white shadow-sm py-3 px-4 md:px-6 flex items-center justify-between">
       <div className="flex items-center gap-4">
         {children}
-        <h1 className="text-xl font-bold text-gray-800">Nexus Dashboard</h1>
+        <h1 className="text-xl font-bold text-gray-800">Approovia Dashboard</h1>
       </div>
 
       <div className="hidden md:flex items-center relative max-w-md w-full mx-6">
