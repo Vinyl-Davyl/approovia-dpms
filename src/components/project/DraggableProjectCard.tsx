@@ -46,7 +46,6 @@ export default function DraggableProjectCard({ id, name, folderName }: Props) {
           }
         `}
         >
-          {/* Card Header with Actions */}
           <div className="flex justify-between items-center p-3 border-b border-gray-100">
             {editingProjectId === id ? (
               <div className="flex w-full">
@@ -119,14 +118,12 @@ export default function DraggableProjectCard({ id, name, folderName }: Props) {
             )}
           </div>
 
-          {/* Card Body - Draggable Area */}
           <div ref={setNodeRef} {...attributes} {...listeners} className="p-4 cursor-move">
             <Project name={name} />
           </div>
         </div>
       </div>
 
-      {/* Drag Indicator - Only visible on hover and not while dragging */}
       {!isDragging && (
         <div className="absolute inset-x-0 top-0 flex justify-center opacity-0 group-hover:opacity-100 transition-opacity -translate-y-3">
           <div className="bg-gray-800 text-white text-xs px-2 py-1 rounded shadow-lg">Drag to move</div>
